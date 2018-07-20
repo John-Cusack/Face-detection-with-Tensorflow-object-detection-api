@@ -6,6 +6,8 @@ This takes a directory of images and removes the faces from the images. It uses 
 
 In the future, I would also like it to block out or remove images from the output that have tattoos but I was not successful in my initial attempt. 
 
+On my machine, with a Titan X(Pascal) on a SATA SSD it takes about 5.8 seconds for tensorflow to get up and running and about 0.28 seconds per image. This will probably vary with hardware and image size.
+
 To use this tool install the Tensorflow Object detection API, clone the repo and run the image_detect.py followed by the relative path to the directory for the input images and a relative path for the output images that have the faces removed. The defaults are `input/` and `output/`
 ```
 python3 image_detect.py --input_images_path=input --output_images_path=output/
