@@ -10,4 +10,6 @@ To use this tool install the Tensorflow Object detection API, clone the repo and
 ```
 python3 image_detect.py --input_images_path=input --output_images_path=output/
 ```
+
+Here are some examples of it in action!
 ![alt text](https://raw.githubusercontent.com/john-cusack/Face-detection-with-Tensorflow-object-detection-api/master/deid_v1.png)
