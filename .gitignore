@@ -1,4 +1,7 @@
 *.h5
 face_inference_graph
-data
 test_images
+face_*
+face_n_tattoo_inference_graph
+input
+output
